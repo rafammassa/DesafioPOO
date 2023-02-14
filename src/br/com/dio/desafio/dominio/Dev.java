@@ -20,7 +20,7 @@ public class Dev {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
         } else {
-            System.err.println("Você não está matriculad em nenhum conteúdo.");
+            System.err.println("Você não está matriculado em nenhum conteúdo.");
         }
     }
 
@@ -28,7 +28,7 @@ public class Dev {
         return this.conteudosConcluidos
                 .stream()
                 .mapToDouble(Conteudo :: calcularXp)
-                .sum();;
+                .sum();
     }
 
     public String getNome() {
