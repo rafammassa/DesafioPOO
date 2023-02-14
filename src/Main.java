@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -14,6 +15,8 @@ public class Main {
         curso2.setTitulo("Curso JavaScript");
         curso2.setDescricao("Básico de JS");
         curso2.setCargaHoraria(50);
+
+        Conteudo conteudo = new Curso(); //polimorfismo
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria Java");
