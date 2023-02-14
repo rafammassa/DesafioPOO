@@ -1,3 +1,6 @@
+# DesafioPOO
+Repositório destinado ao Desafio de Projeto de POO da DIO.
+
 📚 Paradigma de Programação Orientado a Objetos (POO)
 A visão de Orientação a Objetos (OO) é aquela de um mundo de objetos que interagem.
 Este paradigma é um modelo de análise, projeto e programação baseado na aproximação entre o mundo real e o mundo virtual, através da criação e interação entre classes, atributos, métodos, objetos, entre outros.
